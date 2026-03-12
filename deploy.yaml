@@ -12,6 +12,8 @@ spec:
       labels:
         app: my-app
     spec:
+      imagePullSecrets:
+        - name: docker-registry-secret
       containers:
         - name: my-app
           image: docker-repo.sk-devops.com/demo-python-app:v2

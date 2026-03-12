@@ -16,6 +16,6 @@ spec:
         - name: docker-registry-secret
       containers:
         - name: my-app
-          image: docker-repo.sk-devops.com/demo-python-app:v$BUILD_NUMBER
+          image: docker-repo.sk-devops.com/demo-python-app:v19
           ports:
             - containerPort: 5000
